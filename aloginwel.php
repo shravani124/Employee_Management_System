@@ -24,12 +24,13 @@ $result = mysqli_query($conn, $sql);
 				<li><a class="homeblack" href="salaryemp.php"  >Salary Table</a></li>
 				<li><a class="homeblack" href="empleave.php"  >Employee Leave</a></li>
 				<li><a class="homeblack" href="attend.php"  >Employee Attendance</a></li>
-
 				<li><a class="homeblack" href="admin_home.php">Products</li>
 			<li><a class="homeblack" href="transaction.php"  >Transactions</a></li>
 			<li><a class="homeblack" href="customer.php"  >Customers</a></li>
 			<li><a class="homeblack" href="message.php"  >Messages</a></li>
 			<li><a class="homeblack" href="order.php"  >Orders</a></li>
+			<li><a class="homeblack" href="alogin.html"  >Logout</a></li>
+			
 
 			</ul>
 		</nav>
