@@ -49,7 +49,7 @@ $result3 = mysqli_query($conn, $sql3);
 	<div>
 		<!-- <h2>Welcome <?php echo "$empName"; ?> </h2> -->
 
-		    	<h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: center;">Empolyee Leaderboard </h2>
+		    	<h2 style="font-family: 'Montserrat', sans-serif; font-size: 25px; text-align: center;">Employee Leaderboard </h2>
     	<table>
 
 			<tr bgcolor="#000">

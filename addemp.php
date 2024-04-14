@@ -34,7 +34,8 @@
                 <li><a class="homeblack" href="salaryemp.php">Salary Table</a></li> 
                 <li><a class="homeblack" href="empleave.php">Employee Leave</a></li>
                 <li><a class="homeblack" href="attend.php">Employee Attendance</a></li>
-                <li><a class="homeblack" href="alogin.html">Log Out</a></li>
+				<li><a class="homeblack" href="tmt/admin/admin_home.php">Products</li>
+			<li><a class="homeblack" href="alogin.html"  >Logout</a></li>
             </ul>
         </nav>
     </header>

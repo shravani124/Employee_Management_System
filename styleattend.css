@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background: black;
+            color: white;
+            padding: 16px 20px 6px 40px;
+            height: 60px;
+        }
+        header h1{
+            display: inline;
+            font-family: 'Lobster', cursive;
+            color: white;
+            font-weight: 400;
+            font-size: 32px;
+            float: left;
+            margin-top: 0px;
+            margin-right: 10px;
+        }
+        nav ul {
+            display: inline;
+            padding: 0px;
+            float: right;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style-type: none;
+            color: white;
+            float: left;
+            margin-left: 12px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;	
+        }
+        nav ul ul{
+            display: none;
+            position: absolute;
+        }
+        #navli ul li ul:hovar{
+            visibility: visible;
+            display: block;
+        }
+        #navli{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .homered{
+            background-color: red;
+            padding: 30px 10px 30px 10px;
+        }
+        .divider{
+            background-color: red;
+            height: 5px;
+        }
+        .homeblack:hover{
+            background-color: blue;
+            padding: 30px 10px 25px 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .check-in, .check-out {
+            background-color: #b9e6b5;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .check-out {
+            background-color: #ffb5b5;
+        }
+        .timestamp {
+            font-size: 14px;
+            color: #666;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
