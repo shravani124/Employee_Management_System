@@ -42,6 +42,29 @@
 
 
             }
+            .retry {
+              background-color: pink;
+              color: white;
+              width: 10%;
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              margin-top: 20px;
+            }
+
+            .continue {
+              background-color: pink;
+              color: white;
+              width: 10%;
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              margin-top: 20px;
+
+
+            }
 
 
             </style>
@@ -54,10 +77,17 @@
     <div>
       <h1>Your payment failed.</h1>
       <p>Please try again.</p>
-    </div>
+
+      
   </div>
 </div>
-
+<br>
+<br>
+      <br>
+      <button class="retry">
+        <a href="pays.php">Retry</a></button>
+        <button class="continue">
+        <a href="home.php">Continue Shopping</a></button>
 
 </body>
 </html>

@@ -1,4 +1,5 @@
 <?php
+ include("function/session.php");
  include("db/dbconn.php");
 ?>
 
@@ -101,8 +102,15 @@ body {
     </style>
 
 
+<?php
+		$t_id = $_GET['tid'];
+		$query = mysqli_query($conn, "SELECT * FROM transaction WHERE transaction_id = '$t_id'") or die (mysqli_error());
+		$fetch = mysqli_fetch_array($query);
+		
+		$amnt = $fetch['amount'];
+		$t_id = $fetch['transaction_id'];
 
-
+?>
 
 
 
@@ -115,8 +123,15 @@ $customerid  =   $_SESSION['customerid'] ;
 
 $sql="select *from transaction where CUSTOMERID='$customerid' order by transaction_id DESC ";
 
+
 $tid=$customerid['transaction_id'];
 $_SESSION['tid']=$tid;
+$t_id = $_GET['tid'];
+		$query = mysqli_query($conn, "SELECT * FROM transaction WHERE transaction_id = '$t_id'") or die (mysqli_error());
+		$fetch = mysqli_fetch_array($query);
+		
+		$amnt = $fetch['amount'];
+
 
 if(isset($_POST['pay'])){
   $cardno=mysqli_real_escape_string($con,$_POST['cardno']);
@@ -143,7 +158,9 @@ if(isset($_POST['pay'])){
 ?>-->
 
 
-  <h2 class="payment">TOTAL PAYMENT : <!--<a>₹<?php  echo $amount?>/-</a></h2>-->
+  <!-- <h2 class="payment">TOTAL PAYMENT : <a>₹<?php  echo $amount?>/-</a></h2> -->
+	<h4>TOTAL: Rs. <?php echo $amnt; ?></h4>
+
 
   <br/>
   <br/>

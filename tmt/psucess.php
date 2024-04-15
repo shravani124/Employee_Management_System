@@ -42,6 +42,18 @@
 
 
             }
+            .back {
+              background-color: pink;
+              color: white;
+              width: 10%;
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              margin-top: 20px;
+
+
+            }
 
             </style>
     <body>
@@ -53,7 +65,15 @@
         <h1>Your payment was successful<br>Thank you for your payment.</h1> 
         <p>We will be in contact with more details shortly</p>
 
-        
       </div>
+
+      <br>
+        <br>
+        <button class="back">
+            <a href="home.php">Back to Home</a>
+        </button>
+        <button class="back">
+            <a href="index.php">Logout</a>
+        </button>
     </body>
 </html>

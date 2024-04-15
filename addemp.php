@@ -80,7 +80,7 @@
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <input class="input--style-1" type="date" placeholder="BIRTHDATE" name="birthday" required="required">
+                                    <input class="input--style-1" type="date" min="1988-01-01" max="2005-12-31" placeholder="BIRTHDATE" name="birthday" required="required">
                                    
                                 </div>
                             </div>
